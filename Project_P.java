@@ -158,7 +158,7 @@ class Project_P implements ActionListener
 		try
 		{
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","system","system");
+			con=DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:xe","shivaramakrishna","system");
 			if(e.getSource()==b1)
 			{
 				String sql = "insert into pproject values(\'"+h3.getText()+"\',\'"+t0.getText()+"\',\'"+t00.getText()+"\',"+t1.getText()+",\'"+t2.getText()+"\',\'"+t3.getText()+"\')";
